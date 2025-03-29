@@ -53,7 +53,7 @@ export const Cola = () => {
         <Col span={12}>
           <Divider>Historial</Divider>
           <List
-            dataSource={tickets.slice(0, 10)}
+            dataSource={tickets.slice(10)}
             renderItem={item => (
               <List.Item>
                 <List.Item.Meta
